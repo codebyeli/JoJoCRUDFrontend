@@ -1,8 +1,9 @@
 function GetForm() {
 
     return(
-        <>
-        </>
+        <form>
+            <label>Name</label>
+        </form>
     )
 }
 
