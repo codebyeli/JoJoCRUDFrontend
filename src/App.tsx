@@ -10,6 +10,7 @@ function App() {
     <>
     <GetTitle/>
     <GroupButtons/>
+    <GetForm/>
     </>
   );
 }
