@@ -1,5 +1,15 @@
 function PostForm() {
 
+    const character = {
+        id: 1,
+        name : "Johnny Joestar",
+        stand : "Tusk",
+        musicalRef : "?",
+        age : 19,
+        nationality : "American",
+        debut : "Part 7"
+    }
+
     return(
         <>
         <h1>Create</h1>
