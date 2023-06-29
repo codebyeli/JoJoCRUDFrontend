@@ -4,12 +4,12 @@ function DeleteForm() {
 
     const character = {
         id: 1,
-        name : "Johnny Joestar",
-        stand : "Tusk",
+        name : "Jonathan Joestar",
+        stand : "Hermit Purple",
         musicalRef : "?",
         age : 19,
-        nationality : "American",
-        debut : "Part 7"
+        nationality : "British",
+        debut : "Part 1"
     }
 
     return(

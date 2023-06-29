@@ -13,7 +13,11 @@ function PutForm() {
     return(
         <>
         <h1>Edit</h1>
-        <form>
+            <label className="formLabel">Character:</label>
+            <select>
+                <option>{character.name}</option>
+            </select>
+            <br/>
             <label className="formLabel">ID: </label>
             <input type="text" id="idCamp"/>
             <br/>
@@ -34,7 +38,6 @@ function PutForm() {
             <br/>
             <label className="formLabel">Debut: </label>
             <input type="text" id="debutCamp"/>
-        </form>
         </>
     )
 }
