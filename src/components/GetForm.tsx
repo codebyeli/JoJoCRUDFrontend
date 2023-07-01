@@ -16,8 +16,10 @@ function GetForm() {
         <>
         <h1>Show</h1>
         <form>
-            <label className="formLabel">ID: </label>
-            <label className="formLabel">{character.id}</label>
+            <label className="formLabel">Character:</label>
+            <select>
+                <option>{character.name}</option>
+            </select>
             <br/>
             <label className="formLabel">Name: </label>
             <label className="formLabel">{character.name}</label>
