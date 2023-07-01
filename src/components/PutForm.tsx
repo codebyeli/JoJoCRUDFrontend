@@ -19,25 +19,25 @@ function PutForm() {
             </select>
             <br/>
             <label className="formLabel">ID: </label>
-            <input type="text" id="idCamp"/>
+            <input className="formInput" type="text" id="idCamp"/>
             <br/>
             <label className="formLabel">Name: </label>
-            <input type="text" id="nameCamp"/>
+            <input className="formInput" type="text" id="nameCamp"/>
             <br/>
             <label className="formLabel">Stand: </label>
-            <input type="text" id="standCamp"/>
+            <input className="formInput" type="text" id="standCamp"/>
             <br/>
             <label className="formLabel">Musical Reference: </label>
-            <input type="text" id="musicalRefCamp"/>
+            <input className="formInput" type="text" id="musicalRefCamp"/>
             <br/>
             <label className="formLabel">Age: </label>
-            <input type="text" id="ageCamp"/>
+            <input className="formInput" type="text" id="ageCamp"/>
             <br/>
             <label className="formLabel">Nationality: </label>
-            <input type="text" id="nationalityCamp"/>
+            <input className="formInput" type="text" id="nationalityCamp"/>
             <br/>
             <label className="formLabel">Debut: </label>
-            <input type="text" id="debutCamp"/>
+            <input className="formInput" type="text" id="debutCamp"/>
             <br/>
             <button type="button" className="btn btn-dark">Edit</button>
         </>

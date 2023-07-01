@@ -5,17 +5,18 @@ import GroupButtons from './components/GroupButtons';
 import PostForm from './components/PostForm';
 import PutForm from './components/PutForm';
 import DeleteForm from './components/DeleteForm';
-
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
-    <GetTitle/>
-    <GroupButtons/>
+    <Navbar/>
+    <div className='App'>
     <GetForm/>
     <PostForm/>
     <PutForm/>
     <DeleteForm/>
+    </div>
     </>
   );
 }
