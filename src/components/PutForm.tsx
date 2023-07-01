@@ -38,6 +38,8 @@ function PutForm() {
             <br/>
             <label className="formLabel">Debut: </label>
             <input type="text" id="debutCamp"/>
+            <br/>
+            <button type="button" className="btn btn-dark">Edit</button>
         </>
     )
 }

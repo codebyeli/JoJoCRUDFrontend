@@ -38,6 +38,8 @@ function GetForm() {
             <br/>
             <label className="formLabel">Debut: </label>
             <label className="formLabel">{character.debut}</label>
+            <br/>
+            <button type="button" className="btn btn-dark">Show</button>
         </form>
         </>
     )

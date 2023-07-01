@@ -2,10 +2,10 @@ function GroupButtons() {
 
     return(
         <div className="btn-group">
-        <button className="btn btn-primary">Show</button>
-        <button className="btn btn-primary">Create</button>
-        <button className="btn btn-primary">Edit</button>
-        <button className="btn btn-primary">Delete</button>
+        <button className="btn btn-dark">Show</button>
+        <button className="btn btn-dark">Create</button>
+        <button className="btn btn-dark">Edit</button>
+        <button className="btn btn-dark">Delete</button>
         </div>
     )
 

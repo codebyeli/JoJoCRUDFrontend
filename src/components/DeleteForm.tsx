@@ -21,7 +21,7 @@ function DeleteForm() {
                 <option>{character.name}</option>
             </select>
             <br/>
-            <button className="groupButton">Delete</button>
+            <button type="button" className="btn btn-dark">Delete</button>
         </form>
         </>
     )
