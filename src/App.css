@@ -1,5 +1,5 @@
 .App{
-margin-left: 5px;
+background-image: url("https://i.ibb.co/0tBmFNd/webbackground.png");
 }
 
 .groupButton{
@@ -7,11 +7,15 @@ margin-left: 5px;
 }
 
 .formLabel{
-  margin-right: 6px;
+  color: white;
 }
 
 .navBarbutton{
 background-color: transparent;
 border: transparent;
 margin: 2px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white !important;
 }
