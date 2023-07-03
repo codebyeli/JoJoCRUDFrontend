@@ -12,6 +12,9 @@ function PutForm() {
 
     return(
         <>
+        <div className="container-fluid">
+        <div className="m-0 vh-100 row justify-content-center align-items-center">
+            <div className="col-2">
         <h1>Edit</h1>
             <label className="formLabel">Character:</label>
             <select>
@@ -40,6 +43,9 @@ function PutForm() {
             <input className="formInput" type="text" id="debutCamp"/>
             <br/>
             <button type="button" className="btn btn-dark">Edit</button>
+            </div>
+            </div>
+            </div>
         </>
     )
 }

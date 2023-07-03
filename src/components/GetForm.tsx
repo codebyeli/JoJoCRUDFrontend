@@ -13,7 +13,9 @@ function GetForm() {
     }
 
     return(
-        <>
+        <div className="container-fluid">
+            <div className="m-0 vh-100 row justify-content-center align-items-center">
+                <div className="col-2">
         <h1>Show</h1>
         <form>
             <label className="formLabel">Character:</label>
@@ -41,7 +43,9 @@ function GetForm() {
             <br/>
             <button type="button" className="btn btn-dark">Show</button>
         </form>
-        </>
+        </div>
+        </div>
+        </div>
     )
 }
 
