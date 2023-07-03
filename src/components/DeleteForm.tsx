@@ -20,6 +20,7 @@ function DeleteForm() {
         <h1>Delete</h1>
         <form>
             <label className="formLabel">Character:</label>
+            <br />
             <select>
                 <option>{character.name}</option>
             </select>

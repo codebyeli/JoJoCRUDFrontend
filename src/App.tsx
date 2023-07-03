@@ -25,12 +25,10 @@ function App() {
   return (
     <>
     <Navbar/>
-    <div className='App'>
     <GetForm/>
     <PostForm/>
     <PutForm/>
     <DeleteForm/>
-    </div>
     </>
   );
 }
