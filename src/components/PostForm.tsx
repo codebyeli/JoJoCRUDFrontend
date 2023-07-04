@@ -14,7 +14,7 @@ function PostForm() {
         <>
         <div className="container-fluid">
             <div className="m-0 vh-100 row justify-content-center align-items-center">
-                <div className="col-2">
+                <div className="col-auto">
         <h1>Create</h1>
         <form>
             <label className="formLabel">ID: </label>
@@ -34,7 +34,7 @@ function PostForm() {
             <input className="formInput" type="text" id="musicalRefCamp"/>
             <br/>
             <label className="formLabel">Age: </label>
-            
+            <br />
             <input className="formInput" type="text" id="ageCamp"/>
             <br/>
             <label className="formLabel">Nationality: </label>

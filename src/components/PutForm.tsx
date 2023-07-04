@@ -14,9 +14,10 @@ function PutForm() {
         <>
         <div className="container-fluid">
         <div className="m-0 vh-100 row justify-content-center align-items-center">
-            <div className="col-2">
+            <div className="col-auto">
         <h1>Edit</h1>
             <label className="formLabel">Character:</label>
+            <br />
             <select>
                 <option>{character.name}</option>
             </select>

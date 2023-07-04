@@ -15,7 +15,7 @@ function GetForm() {
     return(
         <div className="container-fluid">
             <div className="m-0 vh-100 row justify-content-center align-items-center">
-                <div className="col-2">
+                <div className="col-auto">
         <h1>Show</h1>
         <form>
             <label className="formLabel">Character:</label>
