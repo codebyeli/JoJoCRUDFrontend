@@ -1,20 +1,22 @@
+import { Link } from "react-router-dom"
+
 function Navbar () {
     
     return (
     <nav className="navbar justify-content-start bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
-    <a className="navbar-brand"><img src="https://i.ibb.co/jWY439f/Giorno-Icon.png" alt="GiornoIcon" width={30} height={30} /> JoJoCRUD
+    <a className="navbar-brand"><img src="https://i.ibb.co/jWY439f/Giorno-Icon.png" alt="GiornoIcon" width={40} /> JoJoCRUD
     </a>
     <li className="nav-item">
-    <a href="#" className="btn btn-dark" role="button">Show</a>
+    <Link className="btn btn-dark" to="get">Show</Link>
     </li>
     <li className="nav-item">
-    <a href="#" className="btn btn-dark" role="button">Create</a>
+    <Link className="btn btn-dark" to="post">Create</Link>
     </li>
     <li className="nav-item">
-    <a href="#" className="btn btn-dark" role="button">Edit</a>
+    <Link className="btn btn-dark" to="put">Edit</Link>
     </li>
     <li className="nav-item">
-    <a href="#" className="btn btn-dark" role="button">Delete</a>
+    <Link className="btn btn-dark" to="delete">Delete</Link>
     </li>
     </nav>
     )
