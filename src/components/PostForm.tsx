@@ -34,7 +34,7 @@ function PostForm() {
             <input className="formInput" type="text" id="musicalRefCamp"/>
             <br/>
             <label className="formLabel">Age: </label>
-            <br />
+            
             <input className="formInput" type="text" id="ageCamp"/>
             <br/>
             <label className="formLabel">Nationality: </label>

@@ -39,7 +39,9 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
+<>
 <RouterProvider router={routes}/>
+</>
 );
 
 // If you want to start measuring performance in your app, pass a function

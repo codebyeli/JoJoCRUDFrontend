@@ -7,16 +7,16 @@ function Navbar () {
     <a className="navbar-brand"><img src="https://i.ibb.co/jWY439f/Giorno-Icon.png" alt="GiornoIcon" width={40} /> JoJoCRUD
     </a>
     <li className="nav-item">
-    <Link className="btn btn-dark" to="get">Show</Link>
+    <Link className="btn btn-dark" to="/get">Show</Link>
     </li>
     <li className="nav-item">
-    <Link className="btn btn-dark" to="post">Create</Link>
+    <Link className="btn btn-dark" to="/post">Create</Link>
     </li>
     <li className="nav-item">
-    <Link className="btn btn-dark" to="put">Edit</Link>
+    <Link className="btn btn-dark" to="/put">Edit</Link>
     </li>
     <li className="nav-item">
-    <Link className="btn btn-dark" to="delete">Delete</Link>
+    <Link className="btn btn-dark" to="/delete">Delete</Link>
     </li>
     </nav>
     )
