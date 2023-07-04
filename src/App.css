@@ -1,5 +1,5 @@
 .App{
-background-image: url("https://i.ibb.co/0tBmFNd/webbackground.png");
+
 }
 
 .background{
@@ -12,6 +12,7 @@ background-image: url("https://i.ibb.co/0tBmFNd/webbackground.png");
 
 .formLabel{
   color: white;
+  padding: 5px;
 }
 
 .navBarbutton{
