@@ -1,16 +1,18 @@
+
 function GetForm() {
 
     // ✔ This form might be changed to just labels instead of inputs with the only camp being ID to select a specific character
 
-    const character = {
-        id: 1,
-        name : "Jonathan Joestar",
-        stand : "Hermit Purple",
-        musicalRef : "?",
-        age : 19,
-        nationality : "British",
-        debut : "Part 1"
-    }
+    const character =
+        {
+            id: 1,
+            name : "Jonathan Joestar",
+            stand : "Hermit Purple",
+            musicalRef : "?",
+            age : 19,
+            nationality : "British",
+            debut : "Part 1"
+        }
 
     return(
         <div className="container">
