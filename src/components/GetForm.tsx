@@ -44,7 +44,7 @@ function GetForm() {
             <label className="formLabel">{character.debut}</label>
             <br/>
             <div className="col d-flex justify-content-end align-items-end">
-            <button type="button" className="btn btn-dark text-align-right">Show</button>
+            <button type="button" className="btn btn-dark mt-3">Show</button>
             </div>
         </form>
         </div>

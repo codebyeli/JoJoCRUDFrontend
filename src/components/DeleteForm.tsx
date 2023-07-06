@@ -14,9 +14,10 @@ function DeleteForm() {
 
     return(
         <>
-        <div className="container-fluid">
+        <div className="container">
             <div className="m-0 vh-100 row justify-content-center align-items-center">
-                <div className="col-auto">
+                <div className="col-auto bg-dark text-white">
+                    <div className="separator">
         <h1>Delete</h1>
         <form>
             <label className="formLabel">Character:</label>
@@ -25,8 +26,11 @@ function DeleteForm() {
                 <option>{character.name}</option>
             </select>
             <br/>
-            <button type="button" className="btn btn-dark">Delete</button>
+            <div className="col d-flex justify-content-end align-items-end">
+            <button type="button" className="btn btn-dark mt-3">Delete</button>
+            </div>
         </form>
+        </div>
         </div>
         </div>
         </div>
