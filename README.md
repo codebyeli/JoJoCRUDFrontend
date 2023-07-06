@@ -3,9 +3,9 @@ This was done as a separate proyect fromm the JoJoCRUD I did before. But the obj
 # List of tasks
 
 ## Glossary
-### Comments with suggestions that are done will have ✔
-### Comments with suggestions that are being considered or in progress will have -
-### Comments with suggestions that have been scrapped will have [x]
+#### Comments with suggestions that are done will have ✔
+#### Comments with suggestions that are being considered or in progress will have -
+#### Comments with suggestions that have been scrapped will have [x]
 
 ⋅⋅⋅ ✔ GetForm might be changed to just labels instead of inputs with the only camp being ID to select a specific character.
 ⋅⋅⋅ ✔ Background image for the page should be killer queen's icon patterns with pink and purple as the color pallette.
