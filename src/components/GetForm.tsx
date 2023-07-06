@@ -1,7 +1,6 @@
 
 function GetForm() {
 
-    // ✔ This form might be changed to just labels instead of inputs with the only camp being ID to select a specific character
 
     const character =
         {
