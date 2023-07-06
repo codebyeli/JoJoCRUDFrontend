@@ -10,5 +10,5 @@ This was done as a separate proyect fromm the JoJoCRUD I did before. But the obj
 ✅ GetForm might be changed to just labels instead of inputs with the only camp being ID to select a specific character.  
 ✅ Background image for the page should be killer queen's icon patterns with pink and purple as the color pallette.  
 ✅ Forms should be centered and have a rounded square as a background.  
-🔜 Frontpage will be the "Help page" with the user having to click any of the options in the Navbar to do the CRUD actions.  
+✅ Frontpage will be the "Help page" with the user having to click any of the options in the Navbar to do the CRUD actions.  
 ✅ Clicking the JoJoCRUD logo should send you to the home Help page.  
