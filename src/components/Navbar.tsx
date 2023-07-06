@@ -15,7 +15,7 @@ function Navbar () {
     <Link className="btn btn-dark" to="/put">Edit</Link>
     </li>
     <li className="nav-item">
-    <Link className="btn btn-dark" to="/delete">Delete</Link>
+    <Link className="btn btn-dark justify-content-end" to="/delete">Delete</Link>
     </li>
     </nav>
     )
