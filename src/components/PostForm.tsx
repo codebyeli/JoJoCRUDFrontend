@@ -47,7 +47,7 @@ function PostForm() {
             <input className="formInput" type="text" id="debutCamp"/>
             <br/>
             <div className="col d-flex justify-content-end align-items-end">
-            <button type="button" className="btn btn-dark mt-3">Show</button>
+            <button type="button" className="btn btn-dark mt-3">Create</button>
             </div>
         </form>
         </div>

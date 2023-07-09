@@ -25,31 +25,31 @@ function PutForm() {
             <br/>
             <label className="formLabel">ID: </label>
             <br />
-            <input className="formInput" type="text" id="idCamp"/>
+            <input className="formInput" type="text" id="idCamp" value={character.id}/>
             <br/>
             <label className="formLabel">Name: </label>
             <br />
-            <input className="formInput" type="text" id="nameCamp"/>
+            <input className="formInput" type="text" value={character.name} id="nameCamp"/>
             <br/>
             <label className="formLabel">Stand: </label>
             <br />
-            <input className="formInput" type="text" id="standCamp"/>
+            <input className="formInput" type="text" value={character.stand} id="standCamp"/>
             <br/>
             <label className="formLabel">Musical Reference: </label>
             <br />
-            <input className="formInput" type="text" id="musicalRefCamp"/>
+            <input className="formInput" type="text" value={character.musicalRef} id="musicalRefCamp"/>
             <br/>
             <label className="formLabel">Age: </label>
             <br />
-            <input className="formInput" type="text" id="ageCamp"/>
+            <input className="formInput" type="text" value={character.age} id="ageCamp"/>
             <br/>
             <label className="formLabel">Nationality: </label>
             <br />
-            <input className="formInput" type="text" id="nationalityCamp"/>
+            <input className="formInput" type="text" value={character.nationality} id="nationalityCamp"/>
             <br/>
             <label className="formLabel">Debut: </label>
             <br />
-            <input className="formInput" type="text" id="debutCamp"/>
+            <input className="formInput" type="text" value={character.debut} id="debutCamp"/>
             <br/>
             <div className="col d-flex justify-content-end align-items-end">
             <button type="button" className="btn btn-dark mt-3">Edit</button>
